@@ -14,7 +14,7 @@ function [x,y] = computePosition(myTracker,frame)
     
     % Parameters for gradient descent
     gamma = 0.0001;
-    err = 1;
+    err = 2.5;
     counter = 0;
     
     % Gradient descent: Run until the module of nabla E is less than a
